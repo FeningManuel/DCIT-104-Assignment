@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number = 0;
+    int a;
+    int sum = 0;
+
+    for(int a = 1; a <= 10000 ; a++)
+        {
+        if(a % 2 == 0)
+        {
+        sum = sum + a;
+        number++;
+
+        }
+
+        }
+        int average = sum / number;
+        cout << endl << "The average number between the sum of even number from 1 to 10000 is : " << average;
+
+
+    return 0;
+}
